@@ -12,7 +12,7 @@ if len(sys.argv) < 2:
 palavra_chave = sys.argv[1]     # primeiro comando é a palavra-chave
 
 if palavra_chave in texto:
-    pyperclip.copy(texto[palavra-chave])
+    pyperclip.copy(texto[palavra_chave])
     print("Texto para " + palavra_chave + " copiado para a clipboard")
 else:
     print("Não existe texto para esta palavra-chave")
